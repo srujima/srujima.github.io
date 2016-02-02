@@ -103,7 +103,7 @@ h1 {
 }
 
 .popup {
-    position: relative;
+    position: absolute;
     margin-top: 500px;   
     margin-left: 1100px;
     min-width: 500px;
