@@ -55,13 +55,12 @@ li a {
     height: 100%;
     max-width: 100%;
     max-height: 100%;
+    min-width: 700px;
     opacity: 0.7;
-    overflow:hidden;  
-    position: static;
+    overflow:hidden;
     top: 140px;
     right: 327px;
      margin-right: 0;
-     display: inline-block;
 }
 h1 {
      color: antiquewhite;  
