@@ -13,7 +13,7 @@ body {
     right:0px;
     bottom:0px;
 }
-.nav {     
+.nav {
 	float: right; 
     padding-right: 3em;
     padding-top: 10px;
@@ -81,11 +81,17 @@ h1 {
     35% {color: darksalmon;}
     25% {color: darkorange;}
 }
+.moving-zone {
+    width: 100px;
+    height: auto;
+    padding: 0px;
+    position: relative;    
+}
 .popup {
-    position: absolute;
+    position: relative;
     margin-top: 500px;   
     margin-left: 1100px;
-    min-width: 600px;
+    min-width: 400px;
     max-width:700px;
     height: 200px;
     padding: 10px;
@@ -166,13 +172,13 @@ p {
 	background:#F2F7F9;
 	padding:25px;
 	margin:50px 0;
-    height: 700px;
-    padding: 100px;
-    width: 600px;
-    border: 6px solid #8FB5C1;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
-    border-radius:15px;
+    	height: 700px;
+    	padding: 100px;
+    	width: 600px;
+    	border: 6px solid #8FB5C1;
+    	-moz-border-radius:15px;
+    	-webkit-border-radius:15px;
+    	border-radius:15px;
 }
 #contact h3 {
 	color: #F96;
