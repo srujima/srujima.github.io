@@ -71,8 +71,8 @@ h1 {
 @-webkit-keyframes example {
     50% {color: deepskyblue;}
     100% {color: yellow;}
-    35% {color: white;}
-    25% {color: black;}
+    35% {color: darksalmon;}
+    25% {color: darkorange;}
 }
 .popup {
     position: absolute;
