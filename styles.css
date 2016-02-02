@@ -3,6 +3,11 @@ body {
     margin:auto;
     min-width:auto;
     max-width:auto;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
 }
 .nav {     
 	float: right; 
