@@ -17,6 +17,7 @@ body {
 .navbar-header {
     padding-top: 5px;
     padding-left: 300px;
+     display: inline-block;
 }
 .navbar {
     background-color:darkorange;
