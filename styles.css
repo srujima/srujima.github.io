@@ -61,6 +61,7 @@ li a {
     top: 140px;
     right: 327px;
      margin-right: 0;
+     display: inline-block;
 }
 h1 {
      color: antiquewhite;  
