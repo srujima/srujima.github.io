@@ -316,8 +316,10 @@ fieldset {
         	width:30%;
         }
         .popup {
-        	width:60%;
-        	height: auto;
+        	width:70%;
+        	height: 30%;
+        	margin: 100px;
+        	
         }
         .col-sm-4 img {
         	width: 60%;
@@ -329,11 +331,15 @@ fieldset {
         .qualifications {
         	margin:auto;
         }
-        .contactinfo, .contact{
+        .contactinfo{
         	width: 100%;
         	height: auto;
         	padding:auto;
         	margin: auto;
+        }
+        .contact {
+        	padding: 0px;
+        	width: 100%;
         }
         #contact {
         	margin: 55px;
