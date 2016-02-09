@@ -317,14 +317,14 @@ fieldset {
         .popup {
         	width:50%;
         	height:auto;
+        	margin: 0px;
+        	padding: 0px;
         }
         .col-sm-4 img {
-        	width: 100%;
+        	width: 50%;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
         	width: 100%;
-        	margin: 0px;
-        	padding: 0px;
         }
         .qualifications {
         	margin:auto;
@@ -336,14 +336,13 @@ fieldset {
         	margin: auto;
         }
         .sitelinks > ul {
-        	margin-top: 300px;
+        	margin: 0px;
+        	display: inline-block;
         }
         .col-lg-4 > li > p {
         	padding: 0px;
         	line-height: 0px;
         }
-        
-        
 }
 
 
