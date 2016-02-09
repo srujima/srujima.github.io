@@ -315,10 +315,10 @@ fieldset {
         	width:50%;
         }
         .popup {
-        	width:50%;
+        	width:30%;
         	height:auto;
-        	margin: 0px;
-        	padding: 0px;
+        	margin-top: 250px;
+        	margin-left: 400px;
         }
         .col-sm-4 img {
         	width: 50%;
@@ -334,6 +334,10 @@ fieldset {
         	height: auto;
         	padding:auto;
         	margin: auto;
+        }
+        #contact {
+        	margin: auto;
+        	padding: 0px;
         }
         .sitelinks > ul {
         	margin: 0px;
