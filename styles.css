@@ -309,13 +309,13 @@ fieldset {
 		height: 100%;
 	}
         .moving-zone {
-        	width:50%;
+        	width:30%;
         }
         .popup {
         	width:30%;
         	height:auto;
-        	margin-top: 250px;
-        	margin-left: 400px;
+        	margin-top: 150px;
+        	margin-left: 200px;
         }
         .col-sm-4 img {
         	width: 60%;
