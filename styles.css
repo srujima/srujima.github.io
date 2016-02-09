@@ -319,10 +319,10 @@ fieldset {
         	height:auto;
         }
         .col-lg-4, .col-md-4, .col-sm-4 img{
-        	width: 40%;
+        	width: 100%;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
-        	width: 70%;
+        	width: 100%;
         }
         .qualifications {
         	margin:auto;
