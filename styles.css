@@ -320,7 +320,7 @@ fieldset {
         	height: auto;
         }
         .col-sm-4 img {
-        	width: 40%;
+        	width: 60%;
         	padding: 0px;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
@@ -350,7 +350,8 @@ fieldset {
         }
         fieldset, #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea,#contact button[type="submit"] {
         	padding: 0;
-              	width: 60%;
+              	width: 90%;
+              	height: auto;
         }
 }
 
