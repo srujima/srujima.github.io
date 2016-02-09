@@ -310,7 +310,7 @@ fieldset {
 		height: 100%;
 	}
 	.navbar-header {
-		padding: auto;
+		padding: 0px;
 	}
 	.home-page h1 {
 		font-size: 20px;
