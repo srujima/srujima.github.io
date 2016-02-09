@@ -15,10 +15,8 @@ body {
     bottom:0px;
 }
 
-.nav li {     
+.nav {     
     float: right; 
-     padding-right: 3em;
-    padding-top: 10px;
 }
 
 .navbar-header {
