@@ -309,7 +309,7 @@ fieldset {
 	}
 	.homepage {
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
         .moving-zone {
         	width:50%;
@@ -318,15 +318,32 @@ fieldset {
         	width:50%;
         	height:auto;
         }
-        .col-lg-4, .col-md-4, .col-sm-4 img{
+        .col-sm-4 img {
         	width: 100%;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
         	width: 100%;
+        	margin: auto;
+        	padding: 10px;
         }
         .qualifications {
         	margin:auto;
         }
+        ..contactinfo {
+        	width: 100%;
+        	height: auto;
+        	padding:auto;
+        	margin: auto;
+        }
+        .sitelinks > ul {
+        	margin-top: 300px;
+        }
+        .col-lg-4 > li > p {
+        	padding: 0px;
+        	line-height: 0px;
+        }
+        
+        
 }
 
 
