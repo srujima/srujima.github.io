@@ -336,9 +336,9 @@ fieldset {
         	margin: auto;
         }
         #contact {
-        	margin: 50px;
-        	padding: 20px;
+        	margin: 55px;
         	width: 90%;
+        	height: auto;
         }
         .sitelinks > ul {
         	margin: 0px;
