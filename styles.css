@@ -21,9 +21,7 @@ body {
     padding: 5px;
     word-spacing: 3px;
 }
-nav {
-	position: fixed;
-}
+
 .nav {
 	float: right;
 }
