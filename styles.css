@@ -320,7 +320,7 @@ fieldset {
         	height: auto;
         }
         .col-sm-4 img {
-        	width: 30%;
+        	width: 40%;
         	padding: 0px;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
@@ -336,8 +336,9 @@ fieldset {
         	margin: auto;
         }
         #contact {
-        	margin: 25px;
+        	margin: 50px;
         	padding: 20px;
+        	width: 50%;
         }
         .sitelinks > ul {
         	margin: 0px;
