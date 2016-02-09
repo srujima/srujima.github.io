@@ -316,14 +316,13 @@ fieldset {
         	width:70%;
         	height:30%;
         	padding: 0px;
-        	float:right;
         }
         .col-sm-4 img {
-        	width: 40%;
+        	width: 30%;
         	padding: 0px;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
-        	width: 60%;
+        	width: 100%;
         }
         .qualifications {
         	margin:auto;
