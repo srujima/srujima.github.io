@@ -313,17 +313,17 @@ fieldset {
         	width:30%;
         }
         .popup {
-        	width:60%;
-        	height:auto;
-        	padding-top:20px;
+        	width:70%;
+        	height:30%;
+        	padding: 0px;
         	float:right;
         }
         .col-sm-4 img {
-        	width: 60%;
+        	width: 40%;
         	padding: 0px;
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
-        	width: 100%;
+        	width: 60%;
         }
         .qualifications {
         	margin:auto;
