@@ -323,8 +323,8 @@ fieldset {
         }
         .col-lg-5, .col-md-5, .col-sm-5 {
         	width: 100%;
-        	margin: auto;
-        	padding: 10px;
+        	margin: 0px;
+        	padding: 0px;
         }
         .qualifications {
         	margin:auto;
