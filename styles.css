@@ -110,7 +110,6 @@ strong {
     position: absolute;
     margin-top: 500px;   
     margin-left: 1100px;
-    max-width: 700px;
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
@@ -207,13 +206,13 @@ p {
 	background:#F2F7F9;
 	padding:25px;
 	margin:50px 0;
-    height: 700px;
-    padding: 100px;
-    width: 600px;
-    border: 6px solid #8FB5C1;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
-    border-radius:15px;
+	height: 700px;
+	padding: 100px;
+	width: 600px;
+	border: 6px solid #8FB5C1;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
 }
 
 #contact h3 {
@@ -240,7 +239,7 @@ fieldset {
 #contact textarea {
 	height:100px;
 	max-width:100%;
-    resize:none;
+	resize:none;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
