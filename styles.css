@@ -46,7 +46,7 @@ li {
    
 }
 
-.nav > ul > li > a {
+.nav > li > a {
 color: black;
 text-decoration:none!important;
 padding: 10px;
