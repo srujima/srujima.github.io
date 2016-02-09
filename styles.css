@@ -303,3 +303,38 @@ fieldset {
     height: auto;    
 }
 
+@media screen and (max-width:650px) {
+	body {
+		width: 100%;
+	}
+	.homepage {
+		width: 100%;
+		height: auto;
+	}
+        .moving-zone {
+        	width:50%;
+        }
+        .popup {
+        	width:50%;
+        	height:auto;
+        }
+        .col-lg-4, .col-md-4, .col-sm-4 img{
+        	width: 40%;
+        }
+        .col-lg-5, .col-md-5, .col-sm-5 {
+        	width: 70%;
+        }
+        .qualifications {
+        	margin:auto;
+        }
+}
+
+
+
+
+
+
+
+
+
+
