@@ -316,9 +316,9 @@ fieldset {
         	width:30%;
         }
         .popup {
-        	width:90%;
-        	height: auto;
-        	margin: 100px;
+        	width: 200px;
+        	height: 100px;
+        	margin: 50px;
         	
         }
         .col-sm-4 img {
