@@ -205,6 +205,14 @@ li {
     padding: 5px;
     word-spacing: 3px;
 }
+li a {
+	color: black;
+	text-decoration:none!important;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 2px;
+	letter-spacing: 1px;
+}
 
 #contact {
 	background:#F2F7F9;
