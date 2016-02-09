@@ -313,10 +313,10 @@ fieldset {
         	width:30%;
         }
         .popup {
-        	width:30%;
+        	width:60%;
         	height:auto;
-        	margin-top: 150px;
-        	margin-left: 200px;
+        	padding-top:20px;
+        	float:right;
         }
         .col-sm-4 img {
         	width: 60%;
