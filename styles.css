@@ -17,6 +17,10 @@ body {
 
 .nav li {     
     float: right; 
+     display: inline-block;
+    font-size: 25px;  
+    padding: 5px;
+    word-spacing: 3px;
 }
 
 .navbar-header {
@@ -38,10 +42,7 @@ body {
 }
 
 li {
-    display: inline-block;
-    font-size: 25px;  
-    padding: 5px;
-    word-spacing: 3px;
+   
 }
 
 .nav > ul > li a {
