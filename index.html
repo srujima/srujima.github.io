@@ -14,28 +14,23 @@
         <script src="main.js"></script>
     </head>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
                     <a class="brand" href="#">Srujana Madasu</a>
                 </div>
-                <a href="#mynavbar" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="glyphicon glyphicon-th-list"></span>
-                </a>
-				<div class="collapse navbar-collapse" id="myNavbar">
 					<div class="row">
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="#" class="glyphicon glyphicon-home">Home</a>
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a data-toggle="tab" href="#home" class="glyphicon glyphicon-home">Home</a>
 							</li>
 							<li >
-								<a href="#about" class="glyphicon glyphicon-user" target="_self" id="page1">About</a>
+								<a data-toggle="tab" href="#about" class="glyphicon glyphicon-user" target="_self" id="page1">About</a>
 							</li>
 							<li>
-								<a href="#" class="glyphicon glyphicon-th">Projects</a>
+								<a data-toggle="tab" href="#" class="glyphicon glyphicon-th">Projects</a>
 							</li>
 							<li>
-								<a href="#page4" class="glyphicon glyphicon-phone-alt">Contact</a>
+								<a data-toggle="tab" href="#page4" class="glyphicon glyphicon-phone-alt">Contact</a>
 							</li>
                         </ul>
                     </div>
@@ -43,7 +38,7 @@
             </div>
         </nav>
 		<!-- HOME PAGE STARTS -->
-		<div class="homepage">
+		<div class="tab-pane fade in active homepage" id="home">
 			<h1>Design<strong>|</strong>Develop</h1>
 			<div class="moving-zone">
 				<div class="popup">
@@ -60,7 +55,7 @@
 			</div>
 		</div>
 		<!-- ABOUT PAGE STARTS -->
-		<div class="page-content" id="about">
+		<div class="tab-pane fade page-content" id="about">
 			<div class="name">
 				<h2>ABOUT 
 					<b>SRUJANA</b>
@@ -96,7 +91,7 @@
 			</div>
         </div>
 		<!-- Contact PAGE STARTS -->
-		<div class="contactinfo" id="page4">
+		<div class="tab-pane fade contactinfo" id="page4">
 			<div class="sitelinks">
 				<ul class="col-lg-4 colmd-4 col-sm-4">
 					<li>
@@ -119,7 +114,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="contact">
+			<div class="tab-pane fade contact">
 				<form id="contact" action="MAILTO:srujanathota@live.com" method="post" enctype="text/plain">
 					<h3>Get In Touch!</h3>
 					<h4>Fill out the form below and get in touch with me!</h4><br /><br />
