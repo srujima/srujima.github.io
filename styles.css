@@ -359,6 +359,9 @@ fieldset {
               	height: auto;
         }
 }
+@-ms-viewport {
+  width: device-width;
+}
 
 
 
