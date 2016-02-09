@@ -15,7 +15,7 @@ body {
     bottom:0px;
 }
 
-.nav {     
+.nav li {     
     float: right; 
      padding-right: 3em;
     padding-top: 10px;
