@@ -199,6 +199,12 @@ p {
 	margin: auto;
 	padding-top: 200px;  
 }
+li {
+    display: inline-block;
+    font-size: 25px;  
+    padding: 5px;
+    word-spacing: 3px;
+}
 
 #contact {
 	background:#F2F7F9;
