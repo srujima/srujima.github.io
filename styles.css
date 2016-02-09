@@ -34,7 +34,7 @@ body {
     background-color:darkorange;
 }
 
-.brand {
+.navbar-brand {
     font-size: 35px;
     font-family: 'DroidSerifItalic';
     font-weight: bold;
