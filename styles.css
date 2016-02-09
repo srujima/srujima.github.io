@@ -32,6 +32,7 @@ body {
 
 .navbar {
     background-color:darkorange;
+    position: fixed;
 }
 
 .brand {
