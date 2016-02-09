@@ -110,6 +110,9 @@ strong {
     position: absolute;
     margin-top: 500px;   
     margin-left: 1100px;
+    width: 600px;
+    min-width: 300px;
+    max-width: 700px;
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
