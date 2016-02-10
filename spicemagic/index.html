@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spice|Magic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="restaurant.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+    <div class="container">
+        <header>
+            Spice<img src="chilli.png">Magic
+        </header>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+            <li><a data-toggle="tab" href="#about">About</a></li>
+            <li><a data-toggle="tab" href="#menu">Menu</a></li>
+            <li><a data-toggle="tab" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- PAGES CONTENT STARTS-->
+
+        <div class="tab-content">
+
+            <!-- HOME PAGE -->
+
+            <div id="home" class="tab-pane fade in active">
+                <h1>Dine<i class="fa fa-glass fa-2x"></i>Enjoy !!</h1>
+                <div class="row">
+                    <div class="col-xs-4 col-md-4">
+                        <img src="spring.png">
+                    </div>
+                    <div class="col-xs-4 col-md-4">
+                        <img src="rice.png">
+                    </div>
+                    <div class="col-xs-4 col-md-4">
+                        <img src="dessert.png">
+                    </div>
+                </div>
+                <div class="timing">
+                    <h3><b>Hours:</b></h3>
+                    <p><b>Mon-Fri:</b> 10:00am-11:00pm</p>
+                    <p><b>Sat & Sun:</b> 10:00am-11:30pm</p>
+                    <p><b>Lunch:</b> 10:00am - 2:00pm</p>
+                    <p><b>Dinner:</b> 5:00pm-11:00pm</p>
+                </div>
+            </div>
+            <!-- ABOUT PAGE -->
+            <div id="about" class="tab-pane fade">
+                <h2>ABOUT</h2>
+                <div class="photos">
+                    <img src="rice.png" />
+                    <img src="spring.png" />
+                    <img src="dessert.png" />
+                    <img src="spices.png" />
+                    <img src="noodles.png" />
+                </div>
+                <div class="data">
+                    <p>Spice Magic is a pure vegetarian restaurant. Spice Magic invites you to taste our exotic flavours of authentic Indian cuisine with a few delicacies from the north and south regions. At Spice Magic, you will definitely enjoy each dish we prepare. Each dish is individually prepared to your preference to ensure freshness and quality.</p>
+                    <p>Good food, music, and elegant ambience - the place is sure to be on top of your list to host events and refer your friends and relatives to host parties.</p>
+                    <p>we take pride in providing our guests with exceptional service on their visit for just a quick meal during lunch, romantic evening dinner or to celebrate an important occasion. Therefore, pay us a visit and give us a chance to provide you with a memorable experience of Fine Indian Dining filled with flavorful cuisines of India.</p>
+                </div>
+            </div>
+
+            <!-- MENU PAGE -->
+
+            <div id="menu" class="tab-pane fade">
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#" ng-click="appetizer()">APPETIZERS</a></li>
+                    <div ng-repeat="appetizer in appetizers" ng-show="one">
+                        <h3>{{appetizer.item}} </h3>
+                        <h4>{{appetizer.price | currency}}</h4>
+                    </div>
+                    <li><a href="#" ng-click="soup()">SOUPS</a></li>
+                    <div ng-repeat="soup in soups" ng-show="two">
+                        <h3>{{soup.item}} </h3>
+                        <h4>{{soup.price|currency}}</h4>
+                    </div>
+                    <li><a href="#" ng-click="mainc()">MAIN COURSE</a></li>
+                    <div ng-repeat="main in maincourse" ng-show="three">
+                        <h3>{{main.item}}</h3>
+                        <h4>{{main.price|currency}}</h4>
+                    </div>
+                    <li><a href="#" ng-click="dessert()">DESSERTS</a></li>
+                    <div ng-repeat="dessert in desserts" ng-show="four">
+                        <h3> {{dessert.item}}</h3>
+                        <h4>{{dessert.price|currency}}</h4>
+                    </div>
+                    <li><a href="#" ng-click="drink()">DRINKS</a></li>
+                    <div ng-repeat="drink in drinks" ng-show="five">
+                        <h3> {{drink.item}}</h3>
+                        <h4>{{drink.price|currency}}</h4>
+                    </div>
+                </ul>
+            </div>
+
+            <!-- CONTACTS PAGE STARTS -->
+
+            <div id="contact" class="tab-pane fade">
+                <h3><b>CONTACT INFO</b></h3><br>
+                <p><b>PHONE:</b> (425) 258-2281</p>
+                <p><b>EMAIL:</b> info@spicemagic.com</p>
+                <p><b>ADDRESS:</b> Redmond, WA</p><br><br>
+                <iframe frameborder="0" scrolling="no" marginheight="100" marginwidth="0" width="700" height="440" src="https://maps.google.com/maps?hl=en&q=redmond,washington&ie=UTF8&t=k&z=9&iwloc=B&output=embed"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer>&copy; Copyright 2016 SpiceMagic. All rights reserved</footer>
+    </div>
+</body>
+
+</html>
