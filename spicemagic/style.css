@@ -286,7 +286,7 @@ iframe {
 		font-size: 50px;
 	}
 	.nav-tabs {
-		width: 90%;
+		width: 100%;
 		float: right;
 	}
 	.nav-tabs > li {
@@ -297,7 +297,7 @@ iframe {
 		height: 100px;
 	}
 	.tab-content {
-		width: 90%;
+		width: 100%;
 		height:auto;
 	}
 }
