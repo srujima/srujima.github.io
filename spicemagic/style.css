@@ -283,7 +283,7 @@ iframe {
 		height: 100%;
 	}
 	.conatiner {
-		width: 100%;
+		width: 90%;
 		height: auto;
 	}
 	header {
@@ -304,5 +304,6 @@ iframe {
 	.tab-content {
 		width: 100%;
 		height:auto;
+		padding: 20px;
 	}
 }
