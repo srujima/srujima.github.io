@@ -304,6 +304,6 @@ iframe {
 	.tab-content {
 		width: 100%;
 		height:auto;
-		text-align: center;
+		padding: 30px;
 	}
 }
