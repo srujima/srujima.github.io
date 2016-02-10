@@ -297,10 +297,6 @@ iframe {
 	.nav-tabs > li {
 		padding: 5px;
 	}
-	.col-xs-4, .col-md-4 img {
-		width: 200px;
-		height: 150px;
-	}
 	.tab-content {
 		width: 100%;
 		height:auto;
