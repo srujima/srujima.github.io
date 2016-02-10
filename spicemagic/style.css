@@ -274,3 +274,43 @@ iframe {
     	-o-transition: all 0.5s ease-out;
     	transition: all 0.5s ease-out;
 }
+
+@media all and (max-width: 900px) {
+	
+	.conatiner {
+		width: 90%;
+		height: auto;
+	}
+	header {
+		width: 90%;
+		font-size: 20px;
+	}
+	.nav-tabs > li {
+		padding: 5px;
+	}
+	.col-xs-4, .col-md-4 img {
+		width: 150px;
+		height: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
