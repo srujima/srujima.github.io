@@ -288,7 +288,7 @@ iframe {
 	}
 	header {
 		width: 90%;
-		font-size: 45px;
+		font-size: 50px;
 	}
 	.nav-tabs {
 		width: 100%;
@@ -298,32 +298,11 @@ iframe {
 		padding: 5px;
 	}
 	.col-xs-4, .col-md-4 img {
-		width: 200px;
-		height: 150px;
+		width: 250px;
+		height: 200px;
 	}
 	.tab-content {
 		width: 100%;
 		height:auto;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
