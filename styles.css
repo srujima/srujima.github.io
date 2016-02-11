@@ -371,12 +371,238 @@ fieldset {
 		width:100%;
 		height: 100%;
 	}
-	.navbar-toogle {
-		diaplay: visible;
-	}
-	.navbar-nav {
-		diaplay: none;
-	}
+	.nav > li {
+		display: inline-block;
+           	font-size: 15px;  
+    		padding: 5px;
+		 word-spacing: 3px;
+}
+
+.nav {
+	float: right;
+}
+.navbar-header {
+    padding-top: 5px;
+    display: inline-block;
+}
+.navbar-default
+.navbar-nav > li > a {
+padding-left: 15px;
+letter-spacing: 1px;
+}
+
+.homepage {
+    background-image: url(srujana.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 700px;
+    opacity: 0.7;
+    overflow:hidden;  
+     top: 140px;
+    right: 327px;
+    display: inline-block;
+}
+
+h1 {
+     color: antiquewhite;  
+    font-family: 'Coda Caption';
+    font-size: 55px;
+    font-style:italic;	
+    font-weight: bold;
+    padding: 20px;
+    float: right;
+    margin-top: 200px;
+
+.moving-zone {
+    width: 100px;
+    height: auto;
+    padding: 0px;
+    position: relative;    
+}
+
+.popup {
+}
+
+.popup-text {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.page-content {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    overflow:hidden;
+    padding-bottom: 100px;
+}
+
+.col-lg-4,.col-md-4,.col-sm-4 {
+    padding-left: 10em;
+    margin-top: 100px;
+    }
+
+.col-lg-5,.col-md-5,.col-sm-5 {    
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.name h2 {
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 40px;
+    color: darkcyan;
+}
+
+p {
+    font-size: 15px;
+}
+
+.qualifications
+{    
+    margin-left: 0px;
+    font-size: 30px;
+    padding-top: 20px;    
+    overflow: hidden;
+    
+}
+
+.contactinfo {
+	width: 100%;
+    	height: 100%;
+}
+
+.contact {
+	max-width:500px;
+	width:100%;      
+	margin: auto;
+	padding-top: 200px;  
+}
+li {
+    display: inline-block;
+    font-size: 25px;  
+    padding: 5px;
+    word-spacing: 3px;
+}
+li a {
+	color: black;
+	text-decoration:none!important;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 2px;
+	letter-spacing: 1px;
+}
+
+#contact {
+	background:#F2F7F9;
+	padding:25px;
+	margin:50px 0;
+	height: 700px;
+	padding: 100px;
+	width: 600px;
+	border: 6px solid #8FB5C1;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+	resize:none;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background-color:#8FB5C1;    
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#A6CFDD;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.col-lg-4 li a {    
+    padding: 10px;
+}
+
+.col-lg-4 li p {    
+    padding: -30px;
+    line-height: 0px;
+}
+
+.sitelinks ul {    
+    margin-top: 300px;  
+}
+
+.col-lg-4 li {
+   line-height: 100px;
+}
+
+.site-footer { 
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    margin-left:0;
+    margin-right: 0;
+    bottom: 0; 
+    width: 100%;
+    height: auto;    
+}
+
+	
+
 }
 
 
