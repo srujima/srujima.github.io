@@ -314,7 +314,7 @@ fieldset {
     height: auto;    
 }
 
-@media screen and (max-device-width: 768px), 
+@media screen and (max-device-width: 658px), 
    only screen and (-webkit-min-device-pixel-ratio: 2) , 
    screen and (-webkit-device-pixel-ratio:1:5) {
 	body, .homepage{
@@ -343,9 +343,6 @@ fieldset {
         	width: 100%;
         	margin: auto;
         	
-        }
-        .qualifications {
-        	margin:auto;
         }
         .contactinfo{
         	width: 100%;
