@@ -370,16 +370,15 @@ fieldset {
 	}
 	.nav > li {
 		display: inline-block;
-           	font-size: 15px;  
+           	font-size: 18px;  
     		padding: 5px;
-		 word-spacing: 3px;
 }
 
 .nav {
 	float: right;
 }
-.navbar-header {
-    padding-top: 5px;
+.navbar-brand {
+    padding-top: 8px;
     display: inline-block;
 }
 .navbar-default
@@ -389,23 +388,17 @@ letter-spacing: 1px;
 }
 
 .homepage {
-    background-image: url(srujana.png);
-    background-size: cover;
-    background-repeat: no-repeat;  
     margin-right: 0;
     width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 700px;
-    opacity: 0.7;
+    height: 60%;
+    opacity: 0.8;
     overflow:hidden;  
      top: 140px;
     right: 327px;
     display: inline-block;
 }
 
-h1 {
+.homepage h1 {
      color: antiquewhite;  
     font-family: 'Coda Caption';
     font-size: 55px;
@@ -413,7 +406,7 @@ h1 {
     font-weight: bold;
     padding: 20px;
     float: right;
-    margin-top: 200px;
+    margin-top: 100px;
 
 .moving-zone {
     width: 100px;
