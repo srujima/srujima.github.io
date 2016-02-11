@@ -1,4 +1,6 @@
-html {
+@media screen and (min-width: 1025px) and (min-height: 900px) {
+	
+	html {
     height:100%;
     width: auto;
 }
@@ -312,7 +314,7 @@ fieldset {
     width: 100%;
     height: auto;    
 }
-
+}
 @media screen and (max-width: 375px) {
 	body, .homepage{
 		width: 100%;
