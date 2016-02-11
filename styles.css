@@ -423,15 +423,8 @@ letter-spacing: 1px;
 	font-size: 20px;
 }
 .popup p {
-	font-size: 15px;
+	font-size: 18px;
 }
-.popup-text {
-    margin: auto;
-    text-align: center;
-    font-size: 25px;
-    padding: 20px;
-}
-
 .page-content {
     width: 100%;
     height: auto;
