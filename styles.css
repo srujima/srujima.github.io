@@ -472,12 +472,11 @@ letter-spacing: 1px;
 }
 
 .contact {
-	max-width:500px;
 	width:100%;      
 	margin: auto;
 	padding-top: 200px;  
 }
-li {
+.contactinfo > ul > li {
     display: inline-block;
     font-size: 25px;  
     padding: 5px;
@@ -493,16 +492,11 @@ li a {
 }
 
 #contact {
-	background:#F2F7F9;
 	padding:25px;
-	margin:50px 0;
-	height: 700px;
+	margin: 150px
+	height: auto;
 	padding: 100px;
-	width: 600px;
-	border: 6px solid #8FB5C1;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
-	border-radius:15px;
+	width: 90%;
 }
 
 #contact h3 {
@@ -571,8 +565,9 @@ fieldset {
     line-height: 0px;
 }
 
-.sitelinks ul {    
-    margin-top: 300px;  
+.sitelinks ul {  
+	width: 90%
+	padding: 2em;
 }
 
 .col-lg-4 li {
