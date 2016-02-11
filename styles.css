@@ -138,17 +138,15 @@ b {
     padding-bottom: 200px;
 }
 
-.row img {
+.col-lg-4,.col-md-4,.col-sm-4 {
     padding-left: 20em;
     padding-right: 10em;
     margin-top: 150px;
-    float: left;
     }
 
-.row p {    
+.col-lg-5,.col-md-5,.col-sm-5 {    
     font-size: 25px;
     margin-top: 120px;
-    float: right;
 }
 
 .name h2 {
@@ -322,6 +320,15 @@ fieldset {
 	.home-page h1 {
 		font-size: 20px;
 	}
+        .col-sm-4 img {
+        	width: 60%;
+        	padding: 0px;
+        }
+        .col-lg-5, .col-md-5, .col-sm-5 {
+        	width: 100%;
+        	margin: auto;
+        	
+        }
         .qualifications {
         	margin-left: 10px;
         }
@@ -426,13 +433,12 @@ letter-spacing: 1px;
     padding-bottom: 100px;
 }
 
-.row img {
+.col-lg-4,.col-md-4,.col-sm-4 {
     padding-left: 10em;
-    width: 150px;
-    height: 100px;
+    margin-top: 100px;
     }
 
-.row p {    
+.col-lg-5,.col-md-5,.col-sm-5 {    
     font-size: 25px;
     margin-top: 100px;
 }
