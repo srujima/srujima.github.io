@@ -369,7 +369,7 @@ fieldset {
 
 
 
-@media all screen and (max-device-width: 968px) {
+@media screen and (max-device-width: 968px) {
 	body, .homepage{
 		width: 100%;
 		height: 100%;
