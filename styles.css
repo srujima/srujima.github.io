@@ -372,9 +372,9 @@ fieldset {
 		height: 100%;
 	}
 	.navbar-toogle {
-		diaplay: visible
+		diaplay: visible;
 	}
-	.collapse {
+	.navbar-nav {
 		diaplay: none;
 	}
 }
