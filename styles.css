@@ -138,15 +138,17 @@ b {
     padding-bottom: 200px;
 }
 
-.col-lg-4,.col-md-4,.col-sm-4 {
+.row img {
     padding-left: 20em;
     padding-right: 10em;
     margin-top: 150px;
+    float: left;
     }
 
-.col-lg-5,.col-md-5,.col-sm-5 {    
+.row p {    
     font-size: 25px;
     margin-top: 120px;
+    float: right;
 }
 
 .name h2 {
