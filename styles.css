@@ -117,7 +117,7 @@ p {
     font-size: 25px;
 }
 
-.col-sm-6, .col-md-4, .col-lg-6  b {
+#qualification > b {
     color: darkcyan;
 }
 
