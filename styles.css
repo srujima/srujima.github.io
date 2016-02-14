@@ -16,6 +16,10 @@ body {
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
 }
+#mainContent {
+	width: 900px;
+	height: 100%;
+}
 
 .homepage {
     background-image: url(srujana.png);
