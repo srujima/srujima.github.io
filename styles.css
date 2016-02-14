@@ -7,20 +7,16 @@ body {
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+	width: 100%;
+     	padding: 0px;
+    	margin-right: auto;
+    	margin-left: auto;
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
     float: right;
 }
 
-#mainContainer {
-	width: 100%;
-	padding: 0px;
-}
 .homepage {
     background-image: url(srujana.png);
     background-size: cover;
