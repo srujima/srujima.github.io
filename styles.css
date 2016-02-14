@@ -104,7 +104,6 @@ b {
     font-size: 50px;
     text-align: center;
     margin-top: 200px;
-    padding-bottom: -700px;
 }
 
 h2 {
@@ -118,15 +117,7 @@ p {
     font-size: 25px;
 }
 
-.qualifications
-{    
-    margin-left: 260px;
-    font-size: 32px;
-    padding-top: 20px;    
-    overflow: hidden;
-}
-
-.col-sm-6, .col-md-4, .col-lg-6 > b {
+.col-sm-6, .col-md-4, .col-lg-6  b {
     color: darkcyan;
 }
 
