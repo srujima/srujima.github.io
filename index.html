@@ -12,37 +12,32 @@
         <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
 	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Srujana Madasu</a>
-				</div>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
-						<span class = "sr-only">Toggle navigation</span>
-                	                        <span class = "icon-bar"></span>
-                	                        <span class = "icon-bar"></span>
-                	                        <span class = "icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse navHeaderCollapse">
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="#"><span  class="glyphicon glyphicon-home"></span>Home</a>
-							</li>
-							<li>
-								<a href="#about"><span  class="glyphicon glyphicon-user"></span>About</a>
-							</li>
-							<li>
-								<a href="#"><span  class="glyphicon glyphicon-th"></span>Projects</a>
-							</li>
-							<li>
-								<a href="#page4"><span  class="glyphicon glyphicon-phone-alt"></span>Contact</a>
-							</li>
-						</ul>
-				</div>
-                        </div>
-                </nav>
-		<!-- HOME PAGE STARTS -->
-		<div class="homepage">
+	
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Srujana Madasu</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Projects</a></li>				
+                <li><a href="#page4">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+<div class="homepage">
 			<h1>Design<strong>|</strong>Develop</h1>
 			<div class="moving-zone">
 				<div class="popup">
@@ -58,26 +53,24 @@
 				</div>
 			</div>
 		</div>
-		<!-- ABOUT PAGE STARTS -->
 		<div class="page-content" id="about">
 			<div class="name">
 				<h2>ABOUT 
 					<b>SRUJANA</b>
 				</h2>
 			</div>
-			<div class="row" id="aboutme">
-				<div class="col-sm-6 col-md-4 col-lg-2">
+           <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 					<img src="" width="300" height="300">
-				</div>
-				<div class="clearfix visible-md-block"></div>
-				<div class="col-sm-6 col-md-4 col-lg-2" id="demo">
-					<h2>WEB DEVELOPER</h2>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-6">	<h2>WEB DEVELOPER</h2>
 					<p>I'm a self-taught web developer living in Redmond, WA. Plain and simple, I enjoy working on web applications - I can see visually what I've been upto 😉. I'm passionate about writing clean, and optimized code designs. My goal is to develop attractive, usable, accessible designs to provide the best possible user experience.</p>
 					<p>I have good experience in web developing. I continue to focus my time in developing professional, innovative and creative solutions for clients. I have a good knowledge in HTML, CSS, JavaScript and C#.</p>
-				</div>
-			</div>
-			<div class="qualifications col-sm-6 col-md-4 col-lg-2 ">
-				<b>QUALIFICATION</b>
+        </div>
+		</div>
+        <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-6">
+			<b>QUALIFICATION</b>
 				<p>Have bachelor's degree in computer science and engineering.</p>
 				<b>SKILLS</b>
 				<ul class="skills">
@@ -93,8 +86,8 @@
 						<b>KNOWLEDGE:</b> Angular, Mongo, VB, SQL, Design patterns, Web services, Microsoft Azure.
 					</li>
 				</ul>
-			</div>
         </div>
+    </div>
 		<!-- Contact PAGE STARTS -->
 		<div class="contactinfo" id="page4">
 			<div class="sitelinks">
