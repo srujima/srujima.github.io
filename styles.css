@@ -18,7 +18,8 @@ body {
     max-height: 340px;
 }
 
-.homepage img{
+.homepage img {
+   vertical-align: middle;
    width: 100%;
    height: 100%;
 }
