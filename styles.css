@@ -34,7 +34,6 @@ h1 {
     font-size: 95px;
     font-style:italic;	
     font-weight: bold;
-    float: right;
     -webkit-animation-name: example;
     -webkit-animation-duration: 4s; 
     animation-name: example;
@@ -56,13 +55,12 @@ strong {
 .moving-zone {
     width: 100px;
     height: auto;
-    padding: 0px;
     position: relative;    
 }
 
 .popup {
     position: absolute;
-    width: 500px;
+    width: 350px;
     height: 200px;
     padding: 10px;
     box-sizing: border-box;
