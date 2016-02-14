@@ -27,3 +27,31 @@ body {
     opacity: 0.7;
     overflow:hidden; 
 }
+
+h1 {
+     color: antiquewhite;  
+    font-family: 'Coda Caption';
+    font-size: 95px;
+    font-style:italic;	
+    font-weight: bold;
+    padding: 20px;
+    float: right;
+    margin-top: 200px;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+strong {
+	font-size: 100px;
+}
+
+@-webkit-keyframes example {
+    50%   {color: deepskyblue;}
+    100%  {color: yellow;}
+    35%  {color: darksalmon;}
+    25% {color: darkorange;}
+}
+
