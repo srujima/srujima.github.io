@@ -34,9 +34,7 @@ h1 {
     font-size: 95px;
     font-style:italic;	
     font-weight: bold;
-    padding: 20px;
     float: right;
-    margin-top: 200px;
     -webkit-animation-name: example;
     -webkit-animation-duration: 4s; 
     animation-name: example;
@@ -54,4 +52,42 @@ strong {
     35%  {color: darksalmon;}
     25% {color: darkorange;}
 }
+
+.moving-zone {
+    width: 100px;
+    height: auto;
+    padding: 0px;
+    position: relative;    
+}
+
+.popup {
+    position: absolute;
+    margin-top: 500px;   
+    margin-left: 1100px;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 40px 0 40px 0;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    background: -webkit-linear-gradient(top left,coral 5%, white 95%);
+    background: -moz-linear-gradient(top left, coral 5%, white 95%);
+    background:  -ms-linear-gradient(top left, coral 5%, white 95%);
+    background:  -o-linear-gradient(top left,coral 5%, white 95%);
+    background:  linear-gradient(top left,coral 5%, white 95%);
+}
+
+.popup-text {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+b {
+    color: firebrick;
+    padding: 2px;
+}
+
 
