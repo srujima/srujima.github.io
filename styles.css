@@ -53,9 +53,10 @@ strong {
 }
 
 .moving-zone {
-    width: 100px;
-    height: auto;
-    position: relative;    
+	width: 50%;
+    	height: 500px;
+    	position: relative;
+    	float: right;    
 }
 
 .popup {
