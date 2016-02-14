@@ -12,7 +12,10 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
+#mainContent {
+	width: 90%;
+	height: auto;
+}
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
 }
