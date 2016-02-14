@@ -14,7 +14,7 @@ body {
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
-    float : right;
 }
-.navbar-collapse {
+.navbar-collapse > ul {
+    float : right;
 }
