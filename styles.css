@@ -93,6 +93,9 @@ b {
     background-color: cornsilk;  
     overflow:hidden;
     padding-bottom: 200px;
+    padding-left: 3em;
 }
-
+.row {
+	padding: 30px;
+}
 
