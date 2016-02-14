@@ -14,11 +14,9 @@ body {
 }
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
-}
-.navbar-nav {
     float: right;
-    margin: 0;
 }
+
 #mainContainer {
 	width: 80%;
 	padding: 0px;
