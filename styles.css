@@ -6,15 +6,28 @@ body {
     color: #333;
     background-color: #fff;
 }
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
 }
-#navbarCollapse {
-   float: right;
+
+.homepage {
+    background-image: url(srujana.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    overflow:hidden;  
+    top: 140px;
+    right: 327px;
+    display: inline-block;
 }
