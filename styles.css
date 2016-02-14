@@ -62,8 +62,6 @@ strong {
 
 .popup {
     position: absolute;
-    margin-top: 500px;   
-    margin-left: 1100px;
     width: 500px;
     height: 200px;
     padding: 10px;
