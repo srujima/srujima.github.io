@@ -102,25 +102,21 @@ b {
 }
 
 @media (min-width: 768px) {
-  .container {
+  #mainContainer {
     width: 750px;
-    height: 100%;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  #mainContainer {
     width: 970px;
-    height: 100%;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+ #mainContainer {
     width: 1170px;
-    height: 100%;
   }
   @media (min-width: 2500px) {
-  .container {
+  #mainContainer {
     width: 2450px;
-    height: 1000px;
   }
 }
