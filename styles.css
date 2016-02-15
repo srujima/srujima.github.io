@@ -17,6 +17,11 @@ body {
     float: right;
 }
 
+.nav > li {
+     display: inline-block;
+    font-size: 30px; 
+}
+
 .homepage {
     background-image: url(srujana.png);
     background-size: cover;
