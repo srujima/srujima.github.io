@@ -1,5 +1,6 @@
 $(function() {
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$('#page2').click(function() {
+    $('#about').show();
+    $('#home').hide();
 });
 });
