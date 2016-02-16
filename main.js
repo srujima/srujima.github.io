@@ -1,3 +1,3 @@
 $('.nav a').click(function() {
-  $('.pages').hide().eq( $(this).index() ).show();
+  $('.pages').hide().filter(this.getAttribute('href')).show();
 });
