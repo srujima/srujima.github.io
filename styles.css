@@ -98,6 +98,7 @@ b {
     margin: 0px auto;
     background-color: cornsilk;  
     overflow:hidden;
+    display: none;
     padding-bottom: 200px;
     padding-left: 3em;
 }
@@ -131,4 +132,7 @@ p {
 
 .skills b {
     color: brown;
+}
+.contactinfo {
+	display: none;
 }
