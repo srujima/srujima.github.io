@@ -1,3 +1,3 @@
-$('.collapse > .nav > a').click(function() {
-  $('.about, .contactinfo').hide().filter(this.getAttribute('href')).show();
+$('.nav a').click(function() {
+  $('.pages').hide().filter(this.getAttribute('href')).show();
 });
