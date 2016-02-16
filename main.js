@@ -1,3 +1,5 @@
 $('.nav a').click(function() {
-  $('.pages').hide().filter(this.getAttribute('href')).show();
-});
+  $('.pages').hide();
+  var index = $('.nav a').index(this);
+  $('.pages').eq(index).show();
+})
