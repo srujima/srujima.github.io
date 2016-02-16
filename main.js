@@ -3,4 +3,4 @@ $('.nav a').click(function() {
   var index = $('.nav a').index(this);
   console.log(index);
   $('.pages').eq(index).show();
-})
+});
