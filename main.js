@@ -12,5 +12,6 @@ $("#details1").click(function () {
 });
 $("#details2").click(function () {
  $('#slide2').slideToggle({direction: "down"}, 300);
+ $('#slide1').hide();
 });
 });
