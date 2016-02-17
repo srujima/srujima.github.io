@@ -8,7 +8,7 @@ $("#details1").click(function () {
       'width': $('#slide1').width(),
       'height': $('#slide1').height()
    });
-   $('#slide1').animate({'width': 'toggle'});
+   $('slide2').fadeOut();
 });
 $("#details2").click(function () {
  $('#slide2').slideToggle({direction: "down"}, 300);
