@@ -70,7 +70,7 @@ b {
 h2 {
     font-size: 40px;
     font-family: "Coda Caption";
-    color: burlywood;
+    color: cornsilk;
 }
 
 p {
@@ -79,11 +79,11 @@ p {
 }
 
 #qualification > b {
-    color: burlywood;
+    color: cornsilk;
 }
 
 .skills b {
-    color: brown;
+    color: burlywood;
 }
 .contactinfo {
 	display: none;
