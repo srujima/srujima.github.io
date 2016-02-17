@@ -115,6 +115,7 @@ p {
     text-align:justify;
     width: 350px;
     float:right;
+    bottom: 0px;
     height: 1000px;
 }
 
