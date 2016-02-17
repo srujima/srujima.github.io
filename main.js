@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('.pages').hide();
   $(this.getAttribute('href')).show()
 });
-$("a").click(function () {
+$(".contactinfo > a").click(function () {
 
     $("#div1").toggle("slide", {
         direction: "right"
