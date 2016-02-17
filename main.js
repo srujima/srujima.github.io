@@ -11,10 +11,7 @@ $("#details1").click(function () {
    $('#slide1').animate({'width': 'toggle'});
 });
 $("#details2").click(function () {
- $('#slide2').css({
-      'width': $('#slide2').width(),
-      'height': $('#slide2').height()
-   });
-   $('#slide2').animate({'width': 'toggle'});
+ $('#slide2').slideToggle({direction: "up"}, 300);
+   $('#slide2').animate('toggle'});
 });
 });
