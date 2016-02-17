@@ -27,61 +27,9 @@ body {
 }
 .img-circle {
 	radius: 50%;
+	width: 450px;
+    	padding: 30px;
 }
-h1 {
-     color: antiquewhite;  
-    font-family: 'Coda Caption';
-    font-size: 95px;
-    font-style:italic;	
-    font-weight: bold;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 4s; 
-    animation-name: example;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-}
-
-strong {
-	font-size: 100px;
-}
-
-@-webkit-keyframes example {
-    50%   {color: deepskyblue;}
-    100%  {color: yellow;}
-    35%  {color: darksalmon;}
-    25% {color: darkorange;}
-}
-
-.moving-zone {
-	width: 50%;
-    	height: 500px;
-    	position: relative;
-    	float: right;    
-}
-
-.popup {
-    position: absolute;
-    width: 350px;
-    height: 200px;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 40px 0 40px 0;
-    cursor: pointer;
-    transform-style: preserve-3d;
-    background: -webkit-linear-gradient(top left,coral 5%, white 95%);
-    background: -moz-linear-gradient(top left, coral 5%, white 95%);
-    background:  -ms-linear-gradient(top left, coral 5%, white 95%);
-    background:  -o-linear-gradient(top left,coral 5%, white 95%);
-    background:  linear-gradient(top left,coral 5%, white 95%);
-}
-
-.popup-text {
-    margin: auto;
-    text-align: center;
-    font-size: 25px;
-    padding: 20px;
-}
-
 b {
     color: firebrick;
     padding: 2px;
