@@ -38,7 +38,7 @@ b {
 }
 #mainContainer {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -91,7 +91,6 @@ p {
     	width: 100%;
     	height: 100%;
     	text-align: center;
-    	background-color: rgba(205,205,200, 0.3);
     	overflow: hidden;
 	display: none;
 }
