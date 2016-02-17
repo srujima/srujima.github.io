@@ -11,9 +11,9 @@ $("#details1").click(function () {
    $('#slide1').animate({'width': 'toggle'});
 });
 $("#details2").click(function () {
- //$('#slide2').slideToggle({direction: "down"}, 300);
- $('#slide2').next().slideToggle();
-   $('#slide2').animate('toggle');
-   $('#slide1').hide();
-});
+ $('#slide2').css({
+      'bottom': $('#slide2').bottom()
+   });
+   $('#slide1').animate({'bottom': 'toggle'});
+
 });
