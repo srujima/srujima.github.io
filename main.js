@@ -12,6 +12,6 @@ $("#details1").click(function () {
 });
 $("#details2").click(function () {
  $('#slide2').slideToggle({direction: "up"}, 300);
-   $('#slide2').animate('toggle'});
+   $('#slide2').animate('toggle');
 });
 });
