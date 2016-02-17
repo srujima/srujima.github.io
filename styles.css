@@ -84,7 +84,12 @@ b {
     color: firebrick;
     padding: 2px;
 }
-
+#mainContainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .page-content {
     width: 100%;
     height: 100%;
