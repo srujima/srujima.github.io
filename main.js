@@ -4,10 +4,10 @@ $(document).ready(function() {
   $(this.getAttribute('href')).show()
 });
 $(".contactinfo > a").click(function () {
-
-    $("#div1").toggle("slide", {
-        direction: "right"
-    }, 1000);
-
+ $('#div1').css({
+      'width': $('#div1').width(),
+      'height': $('#div1').height()
+   });
+   $('#div1').animate({'width': 'toggle'});
 });
 });
