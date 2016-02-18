@@ -29,8 +29,13 @@ body {
 }
 .homepage h1 {
 	font-family: 'Pacifico';
-	font-size: 30px;
+	font-size: 45px;
+	color: azure;
 	font-weight: bold;
+}
+.homepage p {
+	font-size: 30px;
+    	color: chocolate;
 }
 .img-circle {
 	radius: 50%;
