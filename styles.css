@@ -18,7 +18,12 @@ body {
      display: inline-block;
     font-size: 30px; 
 }
-
+.navbar-brand {
+	font-size: 30px;
+	font-size: 35px;
+    	color: darkorange;
+    	font-family: 'Poiret One';
+}
 .homepage {
 	margin-top: 200px;
     	width: 100%;
@@ -126,6 +131,7 @@ p {
 }
 .references a {
 	font-size: 3em;
+	padding: 50px;
 }
 #slide1 { 
 	color:Green;
