@@ -33,7 +33,7 @@ body {
     	padding: 30px;
 }
 
-.img-circle:hover  img{
+.img-circle:hover {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
