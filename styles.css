@@ -170,6 +170,16 @@ p {
 	list-style: none !important;
 	font-size: 20px;
 }
+.medialinks {
+	float: left;
+}
+.ifollow {
+	margin: 100px;
+}
+.ifollow > ul > li {
+	list-style: none !important;
+	font-size: 25px;
+}
 .site-footer { 
     background-color:aliceblue;
     text-align: center;
