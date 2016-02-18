@@ -135,9 +135,7 @@ p {
 	padding: 50px;
 }
 #slide1 { 
-	color:Green;
     background-color:#eee;
-    border:2px solid #333;
     display:none;
     float: right;
     text-align:justify;
@@ -146,9 +144,7 @@ p {
 }
 
 #slide2 {
-	color:Green;
     	background-color:#eee;
-    	border:2px solid #333;
     	display:none;
     	position:absolute;
      	bottom:0;
@@ -157,7 +153,14 @@ p {
   	padding-bottom:2%;
   	z-index: 100;
 }
-
+.sitelinks {
+	text-align: -webkit-left;
+    	margin-top: 150px;
+}
+.sitelinks > ul > li {
+	list-style: none !important;
+	font-size: 30px;
+}
 .site-footer { 
     background-color:aliceblue;
     text-align: center;
