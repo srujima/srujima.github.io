@@ -16,6 +16,6 @@ $("#details2").click(function () {
  $('#slide1').fadeOut();
 });
  $(".navbar-nav li a").click(function() {
-          $(".navbar-collapse").collapse('hide');
+          $(".navbar-collapse").hide();
         });
 });
