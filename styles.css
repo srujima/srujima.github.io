@@ -168,3 +168,9 @@ p {
     width: 100%;
     height: auto;    
 }
+@media screen and(min-width: 968px) {
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+		height: auto;
+    		float: none;
+}
+}
