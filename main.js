@@ -18,4 +18,7 @@ $("#details2").click(function () {
  $(".navbar-nav li a").click(function() {
           $(".navbar-collapse").hide();
         });
+        $("button").click(function() {
+          $(".navbar-collapse").show();
+        });
 });
