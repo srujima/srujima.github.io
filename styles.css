@@ -217,7 +217,7 @@ p {
   		height: auto;
   	}
   	.navbar-brand {
-  		font-size: 25px;
+  		font-size: 20px;
     		font-family: 'Josefin Sans';
   	}
   	.references a {
@@ -232,7 +232,7 @@ p {
     		display:none;
     		float: right;
 		text-align:justify;
-    		width: 350px;
+    		width: 250px;
     		height: 300px;
 	}
 	#slide2 {
