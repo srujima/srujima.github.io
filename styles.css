@@ -124,7 +124,9 @@ p {
     	overflow: hidden;
 	display: none;
 }
-
+.references a {
+	font-size: 30em;
+}
 #slide1 { 
 	color:Green;
     background-color:#eee;
