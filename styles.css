@@ -202,7 +202,7 @@ p {
   	}
   	.nav > li {
   		display: block;
-    		font-size: 20px;
+    		font-size: 25px;
   	}
   	.nav {
   		position: absolute;
@@ -213,8 +213,7 @@ p {
     		z-index: 1000;
   	}
   	.navbar-collapse {
-  		width: 100%;
-  		background-color: cornsilk;
+  		width: 20%;
   		height: auto;
   	}
   	.navbar-brand {
