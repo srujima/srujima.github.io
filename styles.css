@@ -32,6 +32,15 @@ body {
 	width: 450px;
     	padding: 30px;
 }
+
+.img-circle:hover  img{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
 b {
     color: firebrick;
     padding: 2px;
