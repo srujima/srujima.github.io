@@ -219,6 +219,9 @@ p {
   		font-size: 25px;
     		font-family: 'Josefin Sans';
   	}
+  	.container {
+  		display: inline-block;
+  	}
 
 }
 
