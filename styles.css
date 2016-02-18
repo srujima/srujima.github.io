@@ -206,6 +206,7 @@ p {
   	}
   	.nav {
   		position: absolute;
+  		background-color: cornsilk;
   		width: 50%;
   		height: auto;
     		margin-top: 48px;
