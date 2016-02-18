@@ -226,14 +226,11 @@ p {
   		
   	}
   	#slide1 {
-  		color:Green;
-    		background-color:#eee;
-    		border:2px solid #333;
     		display:none;
     		float: right;
 		text-align:justify;
     		width: 250px;
-    		height: 300px;
+    		height: 350px;
 	}
 	#slide2 {
 		position:absolute;
