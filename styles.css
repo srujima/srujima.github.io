@@ -181,7 +181,7 @@ p {
   	body {
   		width: 100%;
   		height: 100%;
-  		Zoom: 70%;
+  		Zoom: 60%;
   	}
   	.site-footer {
   		background-color:aliceblue;
@@ -195,12 +195,13 @@ p {
     		height: auto;
   	}
   	.img-circle {
-  		width: 150px;
+  		width: 250px;
     		padding: 30px;
     		border-radius: 50em;
     		-webkit-border-radius: 50em;
     		-moz-border-radius: 50em;
-}
+  		
+  	}
 
 }
 
