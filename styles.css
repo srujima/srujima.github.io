@@ -206,7 +206,7 @@ p {
   	}
   	.nav {
   		position: absolute;
-  		background-color: cornsilk;
+  		background-color: azure;
   		width: 50%;
   		height: auto;
     		margin-top: 0px;
@@ -223,7 +223,7 @@ p {
 
 }
 
-/* @media only screen 
+@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -254,19 +254,17 @@ p {
   	background-color: azure;
   	width: 100%;
   	height: auto;
-    	margin-top: 48px;
+    	margin-top: 0px;
   }
   .navbar-collapse {
-  	width: 30%;
+  	width: 50%;
   	height: auto;
-  	border: 0px;
-    	margin-top: 0px;
   }
   .navbar-brand {
   	font-size: 20px;
   }
 }
-*/
+
 
 
 
