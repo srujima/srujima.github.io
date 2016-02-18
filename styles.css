@@ -203,11 +203,18 @@ p {
   	.nav > li {
   		display: block;
     		font-size: 20px;
+    		margin-top:20px;
   	}
   	.navbar-brand {
   		font-size: 25px;
     		font-family: 'Josefin Sans';
   	}
+
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
 }
 
