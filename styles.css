@@ -9,6 +9,14 @@ body {
     color: #333;
     background-color: #fff;
 }
+.navbar-brand,
+.nav-collapse {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 340px;
     float: right;
@@ -166,4 +174,10 @@ p {
     bottom: 0; 
     width: 100%;
     height: auto;    
+}
+@media screen and (max-width: 979px) {
+    .navbar .brand,
+    .nav-collapse {
+        display: block;
+    }
 }
