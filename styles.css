@@ -13,7 +13,10 @@ body {
     max-height: 340px;
     float: right;
 }
-
+.navbar-collapse {
+	display: list-item;
+	float: left;
+}
 .nav > li {
      display: inline-block;
     font-size: 30px; 
