@@ -133,6 +133,22 @@ p {
 .references a {
 	font-size: 3em;
 	padding: 50px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	border-radius: 0.5em;
+  	border-bottom: 0.25em solid #0f5177;
+  	-moz-transition: 0.1s;
+  	-webkit-transition: 0.1s;
+  	transition: 0.1s;
+	box-shadow: 0 2px 3px #ccc;
+  	position: relative;
+}
+
+a:hover {
+  background-color: #1e9feb;
+  border-bottom-width: 0;
+  margin-top: 0.2em;
+}
 }
 #slide1 { 
     background-color:#eee;
@@ -237,14 +253,10 @@ p {
   		
   	}
   	#slide1 {
-    		display:none;
-    		float: right;
-		text-align:justify;
-    		width: 250px;
-    		height: 350px;
+    		width: 300px;
+    		height: auto;
 	}
 	#slide2 {
-		position:absolute;
   		width: 100%;
   		height: 200px;
   		padding-bottom:2%;
@@ -256,7 +268,7 @@ p {
 	}
 	.sitelinks > ul > li {
 		list-style: none !important;
-		font-size: 20px;
+		font-size: 15px;
 	}
   		
   }
