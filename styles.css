@@ -183,6 +183,17 @@ p {
   		height: 100%;
   		Zoom: 90%;
   	}
+  	.site-footer {
+  		background-color:aliceblue;
+    		text-align: center;
+    		font-size: 5px;
+    		position: fixed;
+    		margin-left:0;
+    		margin-right: 0;
+    		bottom: 0; 
+    		width: 100%;
+    		height: auto;
+  	}
 
 }
 
