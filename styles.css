@@ -223,47 +223,6 @@ p {
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-  	body {
-  		width: 100%;
-  		height: 100%;
-  		Zoom: 50%;
-  }
-  .site-footer {
-  	text-align: center;
-    	font-size: 5px;
-  	
-  }
-  .img-circle {
-  	width: 350px;
-    	padding: 30px;
-    	border-radius: 50em;
-    	-webkit-border-radius: 50em;
-    	-moz-border-radius: 50em;
-  	
-  }
-  .nav > li {
-  	display: block;
-    	font-size: 20px;
-  }
-  .nav {
-  	position: absolute;
-  	background-color: azure;
-  	width: 100%;
-  	height: auto;
-    	margin-top: 0px;
-  }
-  .navbar-collapse {
-  	width: 50%;
-  	height: auto;
-  }
-  .navbar-brand {
-  	font-size: 20px;
-  }
-}
 
 
 
