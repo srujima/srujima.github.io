@@ -201,9 +201,12 @@ p {
     		-moz-border-radius: 50em;
   	}
   	.nav > li {
+  		position: absolute;
+    		margin-top: 48px;
+    		right: 0;
   		display: block;
     		font-size: 20px;
-    		margin-top:20px;
+    		z-index: 900px;
   	}
   	.navbar-brand {
   		font-size: 25px;
