@@ -161,6 +161,14 @@ p {
 	list-style: none !important;
 	font-size: 30px;
 }
+.sitelinks {
+	text-align: -webkit-left;
+    	margin-top:0px;
+}
+.sitelinks > ul > li {
+	list-style: none !important;
+	font-size: 20px;
+}
 .site-footer { 
     background-color:aliceblue;
     text-align: center;
@@ -241,6 +249,14 @@ p {
   		height: 200px;
   		padding-bottom:2%;
   		z-index: 100;
+	}
+	.sitelinks {
+		text-align: -webkit-left;
+    		margin-top:0px;
+	}
+	.sitelinks > ul > li {
+		list-style: none !important;
+		font-size: 20px;
 	}
   		
   }
