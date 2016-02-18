@@ -150,7 +150,7 @@ p {
     	position:absolute;
      	bottom:0;
   	width: 100%;
-  	height: 500px;
+  	height: auto;
   	padding-bottom:2%;
   	z-index: 100;
 }
@@ -161,14 +161,6 @@ p {
 .sitelinks > ul > li {
 	list-style: none !important;
 	font-size: 30px;
-}
-.sitelinks {
-	text-align: -webkit-left;
-    	margin-top:0px;
-}
-.sitelinks > ul > li {
-	list-style: none !important;
-	font-size: 20px;
 }
 .medialinks {
 	float: left;
