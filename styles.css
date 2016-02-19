@@ -272,9 +272,8 @@ p {
     		height: auto;
     		border: 0px;
     		float: left;
-    		margin: 10px;
-    		margin-left: 50px;
-    		padding: 20px;
+    		margin: 0px;
+    		padding: 0px;
     		font-size: 15px;
 	}
 	.ifollow > ul > li {
