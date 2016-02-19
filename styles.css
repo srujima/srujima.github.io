@@ -361,13 +361,13 @@ p {
     		margin-top: 5px;
 	}
 	.sitelinks > ul > li > b {
-		font-size: 20px;
-	}
-	.sitelinks > ul > li > p {
 		font-size: 17px;
 	}
+	.sitelinks > ul > li > p {
+		font-size: 15px;
+	}
 	.medialinks, .ifollow {
-		width: 300px;
+		width: 350px;
     		height: auto;
     		border: 0px;
     		float: left;
