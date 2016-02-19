@@ -117,7 +117,9 @@ p {
 #qualification > b {
     color: cornsilk;
 }
-
+.skills > li {
+	list-style: none !important;
+}
 .skills b {
     color: burlywood;
 }
