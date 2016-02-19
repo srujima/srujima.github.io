@@ -150,7 +150,7 @@ p {
     	position:absolute;
      	bottom:0;
   	width: 100%;
-  	height: 400px;
+  	height: auto;
   	padding-bottom:2%;
   	z-index: 100;
 }
@@ -258,7 +258,7 @@ p {
 	}
 	#slide2 {
   		width: 100%;
-  		height: 200px;
+  		height: 250px;
   		padding-bottom:2%;
   		z-index: 100;
 	}
