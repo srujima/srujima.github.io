@@ -255,7 +255,7 @@ p {
   		margin-top: 150px;
   	}
   	#slide1 {
-    		width: 450px;
+    		width: 400px;
     		height: 400px;
     		display: block;
 	}
@@ -267,13 +267,13 @@ p {
 	}
 	.sitelinks {
 		text-align: -webkit-left;
-    		margin-top: 50px;
+    		margin-top: 5px;
 	}
 	.sitelinks > ul > li > b {
 		font-size: 25px;
 	}
 	.sitelinks > ul > li > p {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.medialinks, .ifollow {
 		width: 250px;
