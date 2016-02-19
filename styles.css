@@ -275,8 +275,12 @@ p {
     		margin: 10px;
     		margin-left: 50px;
     		padding: 20px;
-    		font-size: 20px;
-}	
+    		font-size: 15px;
+	}
+	.ifollow > ul > li {
+		list-style: none !important;
+		font-size: 15px;
+	}
   }
 
 
