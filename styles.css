@@ -267,10 +267,10 @@ p {
 	}
 	.sitelinks {
 		text-align: -webkit-left;
-    		margin-top: 100px;
+    		margin-top: 50px;
 	}
 	.sitelinks > ul > li > b {
-		font-size: 15px;
+		font-size: 25px;
 	}
 	.sitelinks > ul > li > p {
 		font-size: 10px;
