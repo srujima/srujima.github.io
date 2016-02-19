@@ -271,8 +271,8 @@ p {
 		font-size: 15px;
 	}
 	.medialinks, .ifollow {
-		width: 200px;
-    		height: auto;
+		width: 250px;
+    		height: 300px;
     		border: 0px;
     		float: left;
     		margin-left: 50px;
