@@ -269,6 +269,97 @@ p {
     		margin-top: 5px;
 	}
 	.sitelinks > ul > li > b {
+		font-size: 17px;
+	}
+	.sitelinks > ul > li > p {
+		font-size: 15px;
+	}
+	.medialinks, .ifollow {
+		width: 150px;
+    		height: 300px;
+    		border: 0px;
+    		float: left;
+    		margin-left: 30px;
+    		padding: 10px;
+    		font-size: 10px;
+	}
+	.ifollow > ul > li {
+		list-style: none !important;
+		font-size: 15px;
+	}
+  }
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  		body {
+  		width: 100%;
+  		height: 100%;
+  		Zoom: 60%;
+  	}
+  	.site-footer {
+    		font-size: 5px;
+    		margin-left:0;
+    		margin-right: 0;
+    		bottom: 0; 
+    		width: 100%;
+    		height: auto;
+  	}
+  	.homepage {
+  		margin-top: 150px;
+  	}
+  	.img-circle {
+  		width: 250px;
+    		padding: 30px;
+    		border-radius: 50em;
+    		-webkit-border-radius: 50em;
+    		-moz-border-radius: 50em;
+  	}
+  	.nav > li {
+  		display: block;
+    		font-size: 25px;
+  	}
+  	.nav {
+  		position: absolute;
+  		background-color: azure;
+  		width: 100%;
+  		height: auto;
+    		margin-top: 0px;
+    		border: 0px;
+  	}
+  	.navbar-collapse {
+  		width: 30%;
+  		height: auto;
+  	}
+  	.navbar-brand {
+  		font-size: 20px;
+    		font-family: 'Josefin Sans';
+  	}
+  	.references a {
+  		font-size: 1.5em;
+		padding: 50px;
+  	}
+  	.references {
+  		margin-top: 150px;
+  	}
+  	#slide1 {
+    		width: 380px;
+    		height: 380px;
+	}
+	#slide2 {
+  		width: 100%;
+  		height: 300px;
+  		padding-bottom:2%;
+  		z-index: 100;
+	}
+	.sitelinks {
+		text-align: -webkit-left;
+    		margin-top: 5px;
+	}
+	.sitelinks > ul > li > b {
 		font-size: 20px;
 	}
 	.sitelinks > ul > li > p {
@@ -287,11 +378,8 @@ p {
 		list-style: none !important;
 		font-size: 15px;
 	}
-  }
 
-
-
-
+}
 
 
 
