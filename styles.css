@@ -167,7 +167,7 @@ p {
 }
 .medialinks, .ifollow {
 	width: 500px;
-    	height: 300px;
+    	height: auto;
     	border: 0px;
     	float: left;
     	margin-top: 30px;
