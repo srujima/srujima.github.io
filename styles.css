@@ -162,6 +162,9 @@ p {
 	list-style: none !important;
 	font-size: 30px;
 }
+.references {
+	margin-top: 200px;
+}
 .medialinks, .ifollow {
 	width: 500px;
     	height: 300px;
