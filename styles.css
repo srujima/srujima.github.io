@@ -383,6 +383,96 @@ p {
 
 }
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+  	  		body {
+  		width: 100%;
+  		height: 100%;
+  		Zoom: 60%;
+  	}
+  	.site-footer {
+    		font-size: 5px;
+    		margin-left:0;
+    		margin-right: 0;
+    		bottom: 0; 
+    		width: 100%;
+    		height: auto;
+  	}
+  	.homepage {
+  		margin-top: 250px;
+  	}
+  	.img-circle {
+  		width: 250px;
+    		padding: 30px;
+    		border-radius: 50em;
+    		-webkit-border-radius: 50em;
+    		-moz-border-radius: 50em;
+  	}
+  	.nav > li {
+  		display: block;
+    		font-size: 25px;
+  	}
+  	.nav {
+  		position: absolute;
+  		background-color: azure;
+  		width: 100%;
+  		height: auto;
+    		margin-top: 0px;
+    		border: 0px;
+  	}
+  	.navbar-collapse {
+  		width: 30%;
+  		height: auto;
+  	}
+  	.navbar-brand {
+  		font-size: 20px;
+    		font-family: 'Josefin Sans';
+  	}
+  	.references a {
+  		font-size: 1.5em;
+		padding: 50px;
+  	}
+  	.references {
+  		margin-top: 100px;
+  	}
+  	#slide1 {
+    		width: 350px;
+    		height: 350px;
+	}
+	#slide2 {
+  		width: 100%;
+  		height: 350px;
+  		padding-bottom:2%;
+  		z-index: 100;
+	}
+	.sitelinks {
+		text-align: -webkit-left;
+    		margin-top: 5px;
+	}
+	.sitelinks > ul > li > b {
+		font-size: 17px;
+	}
+	.sitelinks > ul > li > p {
+		font-size: 15px;
+	}
+	.medialinks, .ifollow {
+		width: 250px;
+    		height: auto;
+    		border: 0px;
+    		float: left;
+    		margin-left: 0px;
+    		padding: 10px;
+    		font-size: 15px;
+    		line-height: 1.5em;
+	}
+	.ifollow > ul > li {
+		list-style: none !important;
+		font-size: 15px;
+	}
+
+}
 
 
 
