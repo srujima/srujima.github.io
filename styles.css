@@ -210,15 +210,15 @@ p {
   		Zoom: 60%;
   	}
   	.site-footer {
-  		background-color:aliceblue;
-    		text-align: center;
     		font-size: 5px;
-    		position: fixed;
     		margin-left:0;
     		margin-right: 0;
     		bottom: 0; 
     		width: 100%;
     		height: auto;
+  	}
+  	.homepage {
+  		margin-top: 100px;
   	}
   	.img-circle {
   		width: 250px;
@@ -313,6 +313,10 @@ p {
     		border-radius: 50em;
     		-webkit-border-radius: 50em;
     		-moz-border-radius: 50em;
+  	}
+  	
+  	.homepage {
+  		margin-top: 100px;
   	}
   	.nav > li {
   		display: block;
