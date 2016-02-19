@@ -248,13 +248,16 @@ p {
     		font-family: 'Josefin Sans';
   	}
   	.references a {
-  		font-size: 1em;
+  		font-size: 1.5em;
 		padding: 50px;
-  		
+  	}
+  	.references {
+  		margin-top: 150px;
   	}
   	#slide1 {
-    		width: 300px;
-    		height: auto;
+    		width: 350px;
+    		height: 450px;
+    		display: block;
 	}
 	#slide2 {
   		width: 100%;
@@ -264,18 +267,18 @@ p {
 	}
 	.sitelinks {
 		text-align: -webkit-left;
-    		margin-top:0px;
+    		margin-top: 100px;
 	}
 	.sitelinks > ul > li {
 		list-style: none !important;
-		font-size: 15px;
+		font-size: 10px;
 	}
 	.medialinks, .ifollow {
 		width: 250px;
     		height: 300px;
     		border: 0px;
     		float: left;
-    		margin-left: 50px;
+    		margin-left: 30px;
     		padding: 10px;
     		font-size: 15px;
 	}
