@@ -374,6 +374,7 @@ p {
     		margin-left: 0px;
     		padding: 10px;
     		font-size: 15px;
+    		line-height: 1.5em;
 	}
 	.ifollow > ul > li {
 		list-style: none !important;
