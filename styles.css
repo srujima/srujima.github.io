@@ -343,7 +343,7 @@ p {
   	}
   	#slide1 {
     		width: 380px;
-    		height: 380px;
+    		height: 300px;
 	}
 	#slide2 {
   		width: 100%;
@@ -359,14 +359,14 @@ p {
 		font-size: 20px;
 	}
 	.sitelinks > ul > li > p {
-		font-size: 17px;
+		font-size: 15px;
 	}
 	.medialinks, .ifollow {
-		width: 250px;
+		width: 150px;
     		height: 300px;
     		border: 0px;
     		float: left;
-    		margin-left: 30px;
+    		margin-left: 0px;
     		padding: 10px;
     		font-size: 15px;
 	}
