@@ -93,10 +93,14 @@ b {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 }
-.col-sm-6, .col-md-4, .col-lg-6 {
+.col-sm-6, .col-md-4, .col-lg-6, .introduction {
 	font-size: 25px;
 }
-
+.introduction {
+	width: 80%;
+    	height: auto;
+    	margin-left: 100px;
+}
 .name h2 {
     font-size: 50px;
     text-align: center;
