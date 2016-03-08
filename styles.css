@@ -261,7 +261,7 @@ p {
   	}
   	#slide1 {
     		width: 380px;
-    		height: 380px;
+    		height: auto;
 	}
 	#slide2 {
   		width: 100%;
