@@ -47,15 +47,13 @@ body {
 	width: 350px;
     	padding: 30px;
     	border-radius: 50%;
-    	border: 1px solid black;
-    	border-radius: 50%;
 }
 .img-circle:hover {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+    -webkit-transform:scale(1.0); /* Safari and Chrome */
+    -moz-transform:scale(1.0); /* Firefox */
+    -ms-transform:scale(1.0); /* IE 9 */
+    -o-transform:scale(1.0); /* Opera */
+     transform:scale(1.0);
 }
 
 b {
