@@ -47,6 +47,8 @@ body {
 	width: 350px;
     	padding: 30px;
     	border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
 }
 .img-circle:hover {
     -webkit-transform:scale(1.0); /* Safari and Chrome */
@@ -225,9 +227,6 @@ p {
   	.img-circle {
   		width: 200px;
     		padding: 30px;
-    		border-radius: 50em;
-    		-webkit-border-radius: 50em;
-    		-moz-border-radius: 50em;
   	}
   	.nav > li {
   		display: block;
@@ -313,6 +312,9 @@ p {
   	}
   	.homepage {
   		margin-top: 250px;
+  	}
+  	.homepage h1{
+  		font-size: 30px;
   	}
   	.img-circle {
   		width: 250px;
@@ -411,9 +413,6 @@ p {
   	.img-circle {
   		width: 250px;
     		padding: 30px;
-    		border-radius: 50em;
-    		-webkit-border-radius: 50em;
-    		-moz-border-radius: 50em;
   	}
   	.nav > li {
   		display: block;
@@ -479,7 +478,10 @@ p {
 
 }
 
-
+@media only screen and (max-width: 499px) 
+{
+	
+}
 
 
 
