@@ -26,4 +26,9 @@ function btndiv()
    function btnclear()
     {
    document.Calculator.display.value = "";
-    }
+}
+
+function backspace()
+{
+	document.Calculator.display.value = value.slice(0, 1);
+}
