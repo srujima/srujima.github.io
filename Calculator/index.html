@@ -1,81 +1,34 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <!--LINKING CSS FILE-->
+    <head>
+        <!--LINKING CSS FILE-->
     <link rel="stylesheet" type="text/css" href="calc.css">
-    <!-- INCLUDING JAVASCRIPT FILE-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="calc.js">
-        < /head> < body >
-            < div id = "calculator" >
-            < form name = "Calculator" >
-            < div id = "output" >
-            < input name = "display"
-        placeholder = "0"
-        class = "result" >
-            < /div> < div id = "keys" >
-            < div id = "row1" >
-            < input type = "button"
-        value = "7"
-        onClick = "document.Calculator.display.value+= '7'" >
-            < input type = "button"
-        value = "8"
-        onClick = "document.Calculator.display.value+= '8'" >
-            < input type = "button"
-        value = "9"
-        onClick = "document.Calculator.display.value+= '9'" >
-            < input type = "button"
-        value = "+"
-        onClick = "btnadd()" >
-            < /div> < div id = "row2" >
-            < input type = "button"
-        value = "4"
-        onClick = "document.Calculator.display.value+= '4'" >
-            < input type = "button"
-        value = "5"
-        onClick = "document.Calculator.display.value+= '5'" >
-            < input type = "button"
-        value = "6"
-        onClick = "document.Calculator.display.value+= '6'" >
-            < input type = "button"
-        value = "-"
-        onClick = "btnsub()" >
-            < /div> < div id = "row3" >
-            < input type = "button"
-        value = "1"
-        onClick = "document.Calculator.display.value+= '1'" >
-            < input type = "button"
-        value = "2"
-        onClick = "document.Calculator.display.value+= '2'" >
-            < input type = "button"
-        value = "3"
-        onClick = "document.Calculator.display.value+= '3'" >
-            < input type = "button"
-        value = "/"
-        onClick = "btndiv()" >
-            < /div> < div id = "row4" >
-            < input type = "button"
-        value = "0"
-        onClick = "document.Calculator.display.value+= '0'" >
-            < input type = "button"
-        value = "%"
-        onClick = "btnmod()" >
-            < input type = "button"
-        value = "."
-        onClick = "btndeci()" >
-            < input type = "button"
-        value = "*"
-        onClick = "btnmulty()" >
-            < /div> < div id = "row5" >
-            < input type = "button"
-        value = "="
-        onClick = "document.Calculator.display.value = eval( document.Calculator.display.value)" >
-            < input type = "button"
-        id = "key"
-        value = "AC"
-        onClick = "btnclear()" >
-            < /div> < /div> < /form> < /div>
-    </script>
+    </head>
+<body>   
+<form name="Calculator" class="calculator">
+	<input name="display" id="screen" class="screen" placeholder="0"/>
+	<div class="buttons">
+    <input type="button" id="clear" value="C" onClick="btnclear()">
+    <input type="button" id="backspace" value="<-" onClick="backspace()">
+    <input type="button" id="sign" value="%" onClick="btnmod()">
+    <input type="button" id="divide" value="/" onClick="btndiv()">
+    <input type="button" class="digit" value="7" onClick = "document.Calculator.display.value+= '7'">
+    <input type="button" class="digit" value="8" onClick = "document.Calculator.display.value+= '8'">
+    <input type="button" class="digit" value="9" onClick = "document.Calculator.display.value+= '9'">
+    <input type="button" id="multiply" value="*" onClick="btnmulty()">
+    <input type="button" class="digit" value="4" onClick = "document.Calculator.display.value+= '4'">
+    <input type="button" class="digit" value="5" onClick = "document.Calculator.display.value+= '5'">
+    <input type="button" class="digit" value="6" onClick = "document.Calculator.display.value+= '6'">
+    <input type="button" id="minus" value="-" onClick="btnsub()">
+    <input type="button" class="digit" value="1" onClick = "document.Calculator.display.value+= '1'">
+    <input type="button" class="digit" value="2" onClick = "document.Calculator.display.value+= '2'">
+    <input type="button" class="digit" value="3" onClick = "document.Calculator.display.value+= '3'">
+    <input type="button" id="plus" value="+" onClick="btnadd()">
+    <input type="button" class="digit" value="0" onClick = "document.Calculator.display.value+= '0'">
+    <input type="button" class="digit" value="." onClick="btndeci">
+    <input type="button" id="equal" value="=" onClick = "document.Calculator.display.value = eval( document.Calculator.display.value)">
+    </div>
+	</form>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	 <script src="calc.js"></script>
     </body>
-
 </html>
