@@ -1,0 +1,104 @@
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    left: 0;
+    background-color: darkcyan;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.menu{
+	background-color: #034A4;
+}
+nav span
+{
+	padding: 20px;
+    margin: 15px;
+}
+.menulist
+{
+  padding: 50px;
+  margin-top: 50px;
+}
+.menulist a {
+    padding: 25px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 32px;
+    color: cornsilk;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+header
+{
+  font-size: 30px;
+}
+.image img
+{
+  border-radius: 50%;
+  border: 4px solid darkcyan;
+}
+.homeimage
+{
+  text-align: center;
+}
+.maintitle
+{
+  padding-bottom: 70px;
+  margin-top: 150px;
+}
+#about
+{
+    margin: auto;
+    width: 90%;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+	background-color: #ACECEE;
+}
+.about
+{
+  text-align: center;
+}
+section
+{
+    text-align: justify;
+    font-size: 25px;
+}
+.table>tbody>tr>td
+{
+	padding: 30px;
+}
+.col-lg-3 img{
+	width:400px;
+	height:300px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+.caption {
+    background: #DAD2D2;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
