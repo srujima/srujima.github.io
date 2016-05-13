@@ -22,14 +22,13 @@ function btndiv()
     {
         document.Calculator.display.value += "/";
     }
-
-   function btnclear()
+function btnclear()
     {
-   document.Calculator.display.value = "";
-}
-
+        document.Calculator.display.value = "";
+        
+    }
 function bckspace()
-{
-    var value = document.getElementById("screen").value;
-    document.getElementById("screen").value = value.substr(0, value.length - 1);
-}
+    {
+        var value = document.getElementById("screen").value;
+        document.getElementById("screen").value = value.substr(0, value.length - 1);
+    }
