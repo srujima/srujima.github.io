@@ -30,6 +30,6 @@ function btndiv()
 
 function backspace()
 {
-    var value = document.getElementById("equal").value;
-    document.getElementById("equal").value = value.substr(0, value.length - 1);
+    var value = document.getElementById("screen").value;
+    document.getElementById("screen").value = value.substr(0, value.length - 1);
 }
