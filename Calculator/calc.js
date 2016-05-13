@@ -28,7 +28,7 @@ function btndiv()
    document.Calculator.display.value = "";
 }
 
-function backspace()
+function bckspace()
 {
     var value = document.getElementById("screen").value;
     document.getElementById("screen").value = value.substr(0, value.length - 1);
