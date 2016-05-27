@@ -1,0 +1,174 @@
+
+body
+{
+	padding-bottom:100px;
+}
+#weather
+{
+    text-align: center;
+    padding: 50px;
+    line-height: 12px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(209, 210, 243, 0.2);
+    box-shadow: 2px 10px 15px #967C7C;
+}
+#weather p{
+	font-size: 23px;
+    font-family: fantasy;
+	
+}
+#weather h2
+{
+	font-size: 25px;
+    font-family: serif;
+    font-weight: 900;
+}
+#weather img{
+	width: 70px;
+	height:70px;
+}
+h3
+{
+	font-size: 30px;
+    font-family: cursive;
+    color: #070763;
+	font-weight: bolder;
+
+}
+.tempdata
+{
+	margin-left: 35%;
+    padding-bottom: 50px;
+}
+header>img
+{
+	width: 350px;
+}
+/* .col-sm-6
+{
+	background-color: #97CDE0;
+    padding: 35px;
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+tr:nth-child(even){background-color: #D4E9F3}
+#table2 tr:nth-child(odd){ background-color: #98E4E4;}
+
+#table2>thead>tr>th
+{
+	font-size: 20px;
+	color: #312727;
+}
+ #table1>tbody>tr>td
+{
+	text-align: justify;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+ #table2>tbody>tr>td
+ {
+	text-align: justify;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    padding: 15px; 
+ }
+#less
+{
+	display:none;
+}
+thead>tr>th>a>span
+{
+	padding: 7px;
+}
+thead>tr>th>a{
+	font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    float: right;
+	color: #312727;
+}
+.table-responsive
+{
+	width: 100%;
+}
+#hourstable
+{
+	height: 490px;
+    overflow: hidden;
+}
+ #table2>tbody>tr>th
+ {
+	 padding:15px;
+ }
+#table1>tbody>tr>th{
+    text-align: justify;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    vertical-align: top;
+	color: aliceblue;
+	background-color: #5F97A7;
+    border-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#table2>tbody>tr>td>img{
+	margin-top: -10px;
+    width: 45px;
+    height: 45px;
+}
+
+h2:after, #temp:after{
+    content: "\00b0"
+}
+h4:after {
+    content: "\00b0"
+}
+.collapse{
+	height: auto;
+    width: 90%;
+}
+.morningforecast,.nightforecast
+{
+	width: 100%;
+    height: auto;
+	padding: 20px;
+}
+.pull-right{
+	width: 250px;
+
+}
+.forecast
+{
+	margin-top: 150px;
+}
+.btn-info
+{
+	width: 100%;
+    height: auto;
+    background-color: #DEDEE6;
+    text-align: left;
+    color: #171515;
+    font-size: 20px;
+}
