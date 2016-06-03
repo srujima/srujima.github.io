@@ -161,6 +161,10 @@ section p {
     font-size: 16px;
     color: darkslateblue;
 }
+.thumb
+{
+     padding: 10px;
+}
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
