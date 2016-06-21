@@ -1,76 +1,99 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="weather.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-<body>
-
-<header><img src="Logo.png"></header>
-<!-- <div class="hero-unit">
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+    </script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <img src="Logo.png">
+    </header>
+    <!-- <div class="hero-unit">
 </div> -->
-<div class="container">
-<div class="tempdata">
-<div class="search">
-<input type="text" placeholder="Enter city name and state" id="textfield" style="font-size: 15px;"></input>
-<button id="searchbtn"><i class="fa fa-search"></i></button>
-</div>
-<div id="weather">
-</div>
-</div>
-<div class="content-wrapper">
-    <div class="row">
-	<div class="col-md-6">
-	<div class="col-md-12">
-	<div class="table-responsive">
-	<table class="table" id="table1"></table>
-	</div>
-	</div>
-	</div>
-  <div class="col-md-6">
-     <div class="col-md-12">
-       <div class="table-responsive" id="hourstable">
-	<table class="table" id="table2">
-	<thead>
-	<tr>
-	<th colspan="4">
-	HOURLY
-	</th>
-	<th colspan="4">
-	 <a id="more" href="#!"><span class="glyphicon glyphicon-hand-down"></span>More Hours</a>
-    <a id="less" href="#!"><span class="glyphicon glyphicon-hand-up"></span>Less</a>
-	</th>
-	</tr>	
-	<tr>
-	<th>DAY</th>
-	<th>TIME</th>
-	<th>COND</th>
-	<th>TEMP</th>
-	<th>WIND</th>
-	</tr>	
-	</thead>
-	</table>
-	</div>
-     </div>
-  </div>
-</div>
-</div>
-<div class="container">
-  <h3>Forecast</h3>
-  <hr/>
-  <div class="panel-group" id="accordion">
-  <div class="daysforecast" id="forecast">
-  </div>
-  </div>
-</div>
-</div>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="main.js"></script>
-</body>
+    <div class="container">
+      <div class="tempdata">
+        <div class="locsearch">
+          <div class="search">
+            <input type="text" placeholder="Enter city name and state" id="textfield" style="font-size: 15px;">
+            </input>
+          <button id="searchbtn">
+            <i class="fa fa-search">
+            </i>
+          </button>
+        </div>
+        <div id="weather">
+        </div>
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="col-md-12">
+            <div class="table-responsive">
+              <table class="table" id="table1">
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12">
+            <div class="table-responsive" id="hourstable">
+              <table class="table" id="table2">
+                <thead>
+                  <tr>
+                    <th colspan="3">
+                      HOURLY
+                    </th>
+                    <th colspan="3">
+                      <a id="more" href="#!">
+                        <span class="glyphicon glyphicon-hand-down">
+                        </span>More Hours
+                      </a>
+                      <a id="less" href="#!">
+                        <span class="glyphicon glyphicon-hand-up">
+                        </span>Less
+                      </a>
+                    </th>
+                  </tr>	
+                  <tr>
+                    <th>DAY
+                    </th>
+                    <th>TIME
+                    </th>
+                    <th>COND
+                    </th>
+                    <th>TEMP
+                    </th>
+                    <th>WIND
+                    </th>
+                  </tr>	
+                </thead>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h3>Forecast
+      </h3>
+      <hr/>
+      <div class="panel-group" id="accordion">
+        <div class="daysforecast" id="forecast">
+        </div>
+      </div>
+    </div>
+    </div>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js">
+  </script>
+  <script src="main.js">
+  </script>
+  </body>
 </html>
