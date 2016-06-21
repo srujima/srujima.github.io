@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	$('#less').click(function() {
 		$('#hourstable').css({
-			'height': '450px'
+			'height': '480px'
 		});
 		$('#more').show();
 		$('#less').hide();
@@ -56,6 +56,7 @@ function myfunction(city)
 			     
 			});
 		}
+		
 	});
 	
 	$.ajax({
