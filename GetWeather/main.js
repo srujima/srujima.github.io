@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	var city = "redmond, WA";
 	
 	myfunction(city);
 	
