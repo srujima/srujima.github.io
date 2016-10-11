@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	
+	var city = "redmond, WA";
+	
 	myfunction(city);
 	
 	$("#searchbtn").click(function() {
